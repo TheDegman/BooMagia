@@ -27,6 +27,6 @@
     </FlyoutItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="O nama"
-                      ></ShellContent>
+                      ContentTemplate="{DataTemplate stranice:oNama}"></ShellContent>
     </FlyoutItem>
 </Shell>
