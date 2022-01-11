@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooMagia.Core.AppShell"
+             xmlns:stranice="clr-namespace:BooMagia.Stranice"
+             FlyoutHeaderBehavior="CollapseOnScroll"
+             FlyoutVerticalScrollMode="Enabled">
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Početna stranica"
+                      ContentTemplate="{DataTemplate stranice:PocetnaStranica}"></ShellContent>
+    </FlyoutItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Ekološki blog"
+                      ></ShellContent>
+    </FlyoutItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Usluge"
+                      ></ShellContent>
+    </FlyoutItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Lokacije"
+                      ></ShellContent>
+    </FlyoutItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Novosti"
+                      ></ShellContent>
+    </FlyoutItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="O nama"
+                      ></ShellContent>
+    </FlyoutItem>
+</Shell>
