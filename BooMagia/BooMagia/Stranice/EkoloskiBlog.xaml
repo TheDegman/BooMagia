@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooMagia.Stranice.EkoloskiBlog"
+             Title="Ekološki blog">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#F7F4EE">
+                <Label Margin="5"
+                   Text="Boom Magia-Eco Projekt"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                   Text="Često se priča o tome kako svi zajedno možemo napraviti promjenu, ali onda ljudi često krenu razmišljati kako to sigurno nitko ne radi, pa zašto bi onda i oni? Istina je da svatko od nas čini promjenu. Svaka plastična boca manje, svaka vrećica manje – sve to čini veliku razliku. Zato je tim Boom Magie odlučio postati drugačiji i svojim korisnicima ponuditi nezaboravne proslave uz mjere pridržavanja Eco Projekta! "
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Što je to Eco Projekt?"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Naravno, puno ljudi se boji skupih alternativa, no istina je da se može biti ekološki osviješten i bez dodatnih troškova, ponekad čak i uz smanjenje troškova. Stvar je u tome što je trenutno 'u trendu' biti ekološki osviješten, a velike korporacije su to prepoznale, pa onda zarađuju i na tome."
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Radi se o popularnom 'greenwashingu', gdje kompanije koje su glavni zagađivači imaju posebnu eko liniju koja bi trebala pokazati koliko su svjesni problema i trude se popraviti situaciju, a ustvari ne rade ništa nego jednu liniju naplaćuju malo skuplje od ostatka asortimana, nadajući se da će ljudi nasjesti na foru. Nemojte."
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Kako bismo spriječili takve slučajeve, a i pomogli spasiti naš dragi planet i osigurali si ljepši i ugodniji život u budućnosti, donosimo nekoliko ideja i prijedloga kako poboljšati stvari."
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Slamke"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+
+
+                <Label Margin="5"
+                   Text="Kako bi Boom Magia sačuvala prirodu i kako bi naš tim održao ono za što se zalaže, u našu ponudu smo ubacili metalne i papirnate slamke. Metalne slamke su dosta korisne zato što se operu i opet su u mogućnosti za uporabu, dok su papirnate za jednokratnu uporabu, ali bolje se razgrađuju neko plastične. "
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Plastične vrećice"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+
+
+                <Label Margin="5"
+                   Text="Kao što znamo, danas mnogi od nas koriste plastične vrećice i troše ih bez brige gdje će one kasnije završiti. Upravo zbog toga, naš tim se zalaže za korištenje platnenih vrećica. Bolje su, efikasnije i čvršće od plastičnih, a uostalom nemamo brigu da ćemo zagaditi prirodu. Uvijek ih koristimo kako bi prenijeli nužan materijal za proslave."
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Fast Fashion"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+
+
+                <Label Margin="5"
+                   Text="Svi znamo da je odjeća danas jeftinija nego ikada, pa je samim time imamo više nego ikada, pa se ona masovno proizvodi i distribuira po čitavom svijetu, i onda odlazi nigdje… Najbolji način za boriti se protiv fast fashiona je jednostavno reciklirati odjeću koja nam ne treba. Odjeću koja je na primjer pokidana ili koju ne znamo kako iskoristiti, koristimo kako bi napravili određene ukrase i rekvizite koji bi izgledali fenomenalno na vašoj proslavi"
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Boce i čaše"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+
+
+                <Label Margin="5"
+                   Text="Svi znamo da je odjeća danas jeftinija nego ikada, pa je samim time imamo više nego ikada, pa se ona masovno proizvodi i distribuira po čitavom svijetu, i onda odlazi nigdje… Najbolji način za boriti se protiv fast fashiona je jednostavno reciklirati odjeću koja nam ne treba. Odjeću koja je na primjer pokidana ili koju ne znamo kako iskoristiti, koristimo kako bi napravili određene ukrase i rekvizite koji bi izgledali fenomenalno na vašoj proslavi"
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

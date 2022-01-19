@@ -11,11 +11,11 @@
     </FlyoutItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Ekološki blog"
-                      ></ShellContent>
+                      ContentTemplate="{DataTemplate stranice:EkoloskiBlog}"></ShellContent>
     </FlyoutItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Usluge"
-                      ></ShellContent>
+                      ContentTemplate="{DataTemplate stranice:Usluge}"></ShellContent>
     </FlyoutItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Lokacije"
@@ -23,10 +23,10 @@
     </FlyoutItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Novosti"
-                      ></ShellContent>
+                      ContentTemplate="{DataTemplate stranice:Novosti}"></ShellContent>
     </FlyoutItem>
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="O nama"
-                      ContentTemplate="{DataTemplate stranice:oNama}"></ShellContent>
+                      ContentTemplate="{DataTemplate stranice:ONama}"></ShellContent>
     </FlyoutItem>
 </Shell>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooMagia.Stranice.Usluge"
+             Title="Usluge">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#F7F4EE">
+                <Label Margin="5"
+                   Text="Što ti Boom Magia može ponuditi?"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                   Text="Usluge: "
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Organiziranje evenata, promocije proizvoda i usluge, team building aktivnosti, štandovi i izlaganje na sajmovima, dizajn. Sve ono što vam donosi nezaboravne proslave! "
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Eventi:"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Organiziranje evenata, promocije proizvoda i usluge, team building aktivnosti, štandovi i izlaganje na sajmovima, dizajn. Sve ono što vam donosi nezaboravne proslave! "
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Promocija proizvoda i usluga:"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Razrađujemo i osmišljavamo cijeli plan promocije, odnosno donosimo ideju i kreativan koncept. Osmišljavamo kampanju za lansiranje novog proizvoda ili usluge na tržište i za kraj, nudimo male evente za unapređenje prodaje vašeg proizvoda ili usluge."
+                   FontSize="Medium"
+                   TextColor="Black"
+                   ></Label>
+
+                <Label Margin="5"
+                   Text="Dizajn:"
+                   FontSize="Large"
+                   TextColor="#74664d"
+                   ></Label>
+                <Label Margin="5"
+                   Text="Naš tim je zadužen za dizajniranje i uređivanje čitavog prostora po vašoj želji. Sve vrste tematskih proslava, razrada čitavog party plana, pronalazak uniformi i kostima. Ujedno nudimo i pozivnice, letke i plakate koji se mogu podijeliti."
+                   FontSize="Medium"
+                   TextColor="Black"
+                  ></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,59 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BooMagia.Stranice.oNama">
+             x:Class="BooMagia.Stranice.ONama">
     <ContentPage.Content>
-        <ScrollView>
-
-            <StackLayout>
-                <Label Margin="10" Text="Tko smo mi?" FontAttributes="Bold" FontSize="Title" HorizontalOptions="Center" TextColor="RosyBrown"/>
-                <Label Margin="10,0,0,0"
+        <StackLayout>
+            <Label Margin="10" Text="Tko smo mi?" FontAttributes="Bold" FontSize="Title" HorizontalOptions="Center" TextColor="RosyBrown"/>
+            <Label Margin="10,0,0,0"
 			   TextColor="Black"
 			   VerticalTextAlignment="Center" 
 			   HorizontalTextAlignment="Start" 
 			   Text="Party Boom! je agencija koja je specijalizirana za organizaciju raznih događaja, proslava i cjelokupne razrade Party planova.
 			   Svaku proslavu i događaj koji radimo, radimo sa ljubavlju i uvijek smo u potrazi za novim, ljepšim i boljim. Uslugu koju nudimo, radimo po sistemu &quot;ključ u ruke&quot; što znači da svaki događaj organiziramo u potpunosti u svim fazama:"  />
-                <Label Text="#Kreacija osnovne ideje i osmišljavanje koncepta" 
+            <Label Text="#Kreacija osnovne ideje i osmišljavanje koncepta" 
 			   TextColor="Black" 
 			   HorizontalOptions="Center" 
 			   Margin="5" 
 			   FontAttributes="Bold"/>
-                <Label Text="#Tehničko-organizacijski dio (scenografija, produkcija, catering...)" 
+            <Label Text="#Tehničko-organizacijski dio (scenografija, produkcija, catering...)" 
 			   TextColor="Black" 
 			   HorizontalOptions="Center" 
 			   Margin="5" 
 			   FontAttributes="Bold"
 			   HorizontalTextAlignment="Center"/>
-                <Label Text="#Realizacija u konkretnom vremenu i prostoru" 
+            <Label Text="#Realizacija u konkretnom vremenu i prostoru" 
 			   TextColor="Black" 
 			   HorizontalOptions="Center" 
 			   Margin="5" 
 			   FontAttributes="Bold"/>
 
-                <Grid Margin="0,10,0,0">
-                    <Image Source="GoogleMaps.PNG" 
-				   Aspect="AspectFit" Margin="0,20,0,0" Grid.Column="0" Grid.ColumnSpan="1" BackgroundColor="red" Grid.RowSpan="1">
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer
-						Tapped="OnImage_Tapped"
-						NumberOfTapsRequired="1" />
-                        </Image.GestureRecognizers>
-                    </Image>
-                    <Label HorizontalOptions="Center" Margin="0,10,0,0" Grid.Row="0" Grid.Column="1" BackgroundColor="blue">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span TextColor="Black" Text="Kontakt:&#10;&#10;" FontAttributes="Bold"/>
-                                <Span TextColor="RosyBrown" Text="partyboomvt@gmail.com&#10;&#10;" TextDecorations="Underline"/>
-                                <Span TextColor="Black" Text="RADNO VRIJEME:&#10;&#10;" FontAttributes="Bold"/>
-                                <Span TextColor="Black" Text="Ponedjeljak - Petak:&#10;&#10;"/>
-                                <Span TextColor="DarkGreen" Text="09:00 - 17:00&#10;&#10;"/>
-                                <Span TextColor="Black" Text="Subota:&#10;&#10;"/>
-                                <Span TextColor="Blue" Text="09:00 - 12:00&#10;&#10;"/>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                </Grid>
-            </StackLayout>
-        </ScrollView>
+            <Grid Margin="10">
+                <Image Source="img11.png" Aspect="AspectFit" HeightRequest="20">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Label HorizontalOptions="Center" Margin="0,10,0,0" Grid.Row="0" Grid.Column="1">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span TextColor="Black" Text="Kontakt:&#10;&#10;" FontAttributes="Bold"/>
+                            <Span TextColor="RosyBrown" Text="partyboomvt@gmail.com&#10;&#10;" TextDecorations="Underline"/>
+                            <Span TextColor="Black" Text="RADNO VRIJEME:&#10;&#10;" FontAttributes="Bold"/>
+                            <Span TextColor="Black" Text="Ponedjeljak - Petak:&#10;&#10;"/>
+                            <Span TextColor="DarkGreen" Text="09:00 - 17:00&#10;&#10;"/>
+                            <Span TextColor="Black" Text="Subota:&#10;&#10;"/>
+                            <Span TextColor="Blue" Text="09:00 - 12:00&#10;&#10;"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

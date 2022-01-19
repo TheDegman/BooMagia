@@ -1,14 +1,139 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BooMagia.Stranice.PocetnaStranica">
+             x:Class="BooMagia.Stranice.PocetnaStranica"
+             Title="Početna stranica">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#827153">
-            <Label Text="EVENTI, PROMOCIJE I PROSLAVE" FontSize="Large" TextColor="White"/>
-            <Label Text="Nudimo usluge uređivanja proslava prema tematskim željama." FontSize="Medium" TextColor="White"></Label>
-            <Label Text="Planiramo vjenčanja, sve vrste intimnih druženja ili modernih tematskih događaja po vašoj želji! " FontSize="Medium" TextColor="White"></Label>
-            <Label Text="Naša specijalnost je ponuda unikatnih i nezaboravnih party priča, koja će vaše snove pretvoriti u stvarnost." FontSize="Medium" TextColor="White"></Label>
-            
-        </StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="#827153">
+                <Label Margin="5"
+                       Text="EVENTI, PROMOCIJE I PROSLAVE"
+                       FontSize="Large"
+                       TextColor="White" />
+                <Label Margin="5"
+                       Text="Nudimo usluge uređivanja proslava prema tematskim željama."
+                       FontSize="Medium"
+                       TextColor="White"></Label>
+                <Label Margin="5"
+                       Text="Planiramo vjenčanja, sve vrste intimnih druženja ili modernih tematskih događaja po vašoj želji! "
+                       FontSize="Medium"
+                       TextColor="White"></Label>
+                <Label Margin="5"
+                       Text="Naša specijalnost je ponuda unikatnih i nezaboravnih party priča, koja će vaše snove pretvoriti u stvarnost."
+                       FontSize="Medium"
+                       TextColor="White"></Label>
+                <Image Margin="5"
+                       Source="img1.jpg"
+                       Aspect="AspectFit"
+                       HeightRequest="500"
+                       x:Name="SLIKA"></Image>
+                <AbsoluteLayout HeightRequest="70">
+                    <Button AbsoluteLayout.LayoutFlags="All"
+                            AbsoluteLayout.LayoutBounds=".1,0,.3,.8"
+                            Text="&lt;-"
+                            FontSize="Large"
+                            x:Name="NAZAD"
+                            Clicked="NAZAD_Clicked"></Button>
+                    <Button AbsoluteLayout.LayoutFlags="All"
+                            AbsoluteLayout.LayoutBounds=".9,0,.3,.8"
+                            Text="->"
+                            FontSize="Large"
+                            x:Name="NAPRIJED"
+                            Clicked="NAPRIJED_Clicked"></Button>
+                </AbsoluteLayout>
+                <Label Margin="5"
+                       Text="Budimo ekološki osviješteni"
+                       FontSize="Large"
+                       TextColor="White"
+                       TextDecorations="Underline"></Label>
+                <Label Margin="5"
+                       Text="Imajte na umu da za našu uslugu koristimo mješavinu tkanina onoga što imamo na raspolaganju. Naši ručno izrađeni vijenci izrađeni su od  kombinacije različitih materijala. Od vintage, do novotkanog, pa čak i starog rabljenog platna, svi su zaposleni za izradu vijenaca za svaku posebnu priliku. Ovi kvalitetni vijenci mogu se upotrijebiti za gotovo svaki događaj kako bi prenijeli taj topli, gostoljubivi i veseli osjećaj. "
+                       FontSize="Medium"
+                       TextColor="White"></Label>
+                <Image Margin="10"
+                       Source="img7.png"
+                       Aspect="AspectFit"
+                       HeightRequest="200"></Image>
+                <Image Margin="5"
+                       Source="img8.jpeg"
+                       Aspect="AspectFit"
+                       HeightRequest="200"></Image>
+                <Label Margin="5"
+                       Text="USLUGE"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Image Margin="5"
+                       Source="img9.jpeg"
+                       Aspect="AspectFit"
+                       HeightRequest="200"></Image>
+                <Label Margin="5"
+                       Text="LOKACIJE"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Image Margin="5"
+                       Source="img10.jpeg"
+                       Aspect="AspectFit"
+                       HeightRequest="200"></Image>
+                <Label Margin="5"
+                       Text="KATALOG"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+
+                <Label Margin="5"
+                       Text="KAKO DO NAS?"
+                       FontSize="Large"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text=""
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="Kontakt"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="partyboomvt@gmail.com"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="Radno vrijeme:"
+                       FontSize="Medium"
+                       TextColor="Black"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="Ponedjeljak - Petak:"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="09:00 - 17:00"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="Subota:"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Label Margin="5"
+                       Text="09:00 - 12:00"
+                       FontSize="Medium"
+                       TextColor="White"
+                       HorizontalOptions="Center"></Label>
+                <Image Margin="5"
+                       Source="img11.png"
+                       Aspect="AspectFit"
+                       HeightRequest="300"></Image>
+
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
