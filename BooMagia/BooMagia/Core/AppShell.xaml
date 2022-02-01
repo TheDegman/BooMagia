@@ -3,30 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooMagia.Core.AppShell"
              xmlns:stranice="clr-namespace:BooMagia.Stranice"
-             FlyoutHeaderBehavior="CollapseOnScroll"
-             FlyoutVerticalScrollMode="Enabled">
+             xmlns:izgled="clr-namespace:BooMagia.Izgled"
+             
+             FlyoutVerticalScrollMode="Enabled"
+             BackgroundColor="#827153"
+             FlyoutBackgroundColor="White"
+             Shell.NavBarHasShadow="False"
+             
+              >
+
+    <Shell.FlyoutHeader>
+        <izgled:Header></izgled:Header>
+    </Shell.FlyoutHeader>
+    
+    
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Početna stranica"
                       ContentTemplate="{DataTemplate stranice:PocetnaStranica}"></ShellContent>
     </FlyoutItem>
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Ekološki blog"
                       ContentTemplate="{DataTemplate stranice:EkoloskiBlog}"></ShellContent>
     </FlyoutItem>
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Usluge"
                       ContentTemplate="{DataTemplate stranice:Usluge}"></ShellContent>
     </FlyoutItem>
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Lokacije"
+                      ContentTemplate="{DataTemplate stranice:Lokacije}"
                       ></ShellContent>
     </FlyoutItem>
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Novosti"
                       ContentTemplate="{DataTemplate stranice:Novosti}"></ShellContent>
     </FlyoutItem>
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="O nama"
                       ContentTemplate="{DataTemplate stranice:ONama}"></ShellContent>
     </FlyoutItem>
+    
 </Shell>

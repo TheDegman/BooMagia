@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BooMagia.Stranice.ONama">
+             x:Class="BooMagia.Stranice.ONama"
+             Title="O Nama">
     <ContentPage.Content>
         <StackLayout>
             <Label Margin="10" Text="Tko smo mi?" FontAttributes="Bold" FontSize="Title" HorizontalOptions="Center" TextColor="RosyBrown"/>
@@ -10,7 +11,7 @@
 			   VerticalTextAlignment="Center" 
 			   HorizontalTextAlignment="Start" 
 			   Text="Party Boom! je agencija koja je specijalizirana za organizaciju raznih događaja, proslava i cjelokupne razrade Party planova.
-			   Svaku proslavu i događaj koji radimo, radimo sa ljubavlju i uvijek smo u potrazi za novim, ljepšim i boljim. Uslugu koju nudimo, radimo po sistemu &quot;ključ u ruke&quot; što znači da svaki događaj organiziramo u potpunosti u svim fazama:"  />
+			   Svaku proslavu i događaj koji radimo, radimo sa ljubavlju i uvijek smo u potrazi za novim, ljepšim i boljim."  />
             <Label Text="#Kreacija osnovne ideje i osmišljavanje koncepta" 
 			   TextColor="Black" 
 			   HorizontalOptions="Center" 

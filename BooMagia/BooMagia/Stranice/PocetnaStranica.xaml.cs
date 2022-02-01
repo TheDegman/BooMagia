@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BooMagia.Stilovi;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,31 @@ namespace BooMagia.Stranice
         public PocetnaStranica()
         {
             InitializeComponent();
+            //List<LOKACIJE> izvor = new List<LOKACIJE>();
+            //izvor.Add(new LOKACIJE
+            //{
+            //    SOURCE = "img1.jpg"
+            //});
+            //izvor.Add(new LOKACIJE
+            //{
+            //    SOURCE = "img2.jpg"
+            //});
+            //izvor.Add(new LOKACIJE
+            //{
+            //    SOURCE = "img3.jpg"
+            //});
+            //izvor.Add(new LOKACIJE
+            //{
+            //    SOURCE = "img4.jpg"
+            //});
+            //izvor.Add(new LOKACIJE
+            //{
+            //    SOURCE = "img5.jpg"
+            //});
+            //izvor.Add(new LOKACIJE
+            //{
+            //    SOURCE = "img6.jpg"
+            //});
         }
 
         private void NAPRIJED_Clicked(object sender, EventArgs e)
@@ -42,5 +68,15 @@ namespace BooMagia.Stranice
             SLIKA.Source = string.Format($"img{i}.jpg");
 
         }
+
+
+        
+        
+
+        
+        
+        
+
     }
+    
 }

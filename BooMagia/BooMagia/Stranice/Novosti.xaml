@@ -3,25 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BooMagia.Stranice.Novosti"
              Title="Novosti">
-    <ContentPage.Content>
-        <ScrollView>
-            <StackLayout BackgroundColor="#e1cbb1">
-                <Image Source="img12.jpg" Aspect="AspectFit" HeightRequest="600"   ></Image>
+    <ScrollView>
+        <StackLayout BackgroundColor="#f7f4ee">
+            <Image Source="newspapers.jpg" 
+                           Aspect="AspectFill" 
+                           HeightRequest="60"
+                           ></Image>
 
-                <Frame BackgroundColor="#957A52" Padding="24" CornerRadius="0">
-                    <Label Text="Novosti" HorizontalTextAlignment="Center"  TextColor="Wheat" FontSize="36" />
-                </Frame>
+            
+            <Image Source="img12.jpg" Aspect="AspectFit" HeightRequest="500" WidthRequest="500" HorizontalOptions="Center" ></Image>
 
-                <Label Text="Boom Magia natječaj za posao" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" TextColor="Black" FontSize="Title" />
-                <Label Text="Tvrtka Boom Magia nudi radna mjesta za 4 zaposlenika." FontSize="16" Padding="30,0,30,0" />
-                <Label Text="Radna mjesta: Marketing (1), dizajneri (2) i knjigovodstvo (1)" FontSize="16" Padding="30,24,30,0">
-                </Label>
-                <Label Text="Prijave za natječaj: 25.studeni 2021.-05.prosinac 2021." FontSize="16" Padding="30,24,30,0">
-                </Label>
-                <Label Text="Osobe koje su zainteresirane za posao mogu se javiti putem e-pošte:" FontSize="16" Padding="30,24,30,0">
-                </Label>
-                <Label Text="partyboomvt@gmail.com" FontSize="16" Padding="30,24,30,0" FontAttributes="Bold" />
-            </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
+            <Label Text="Boom Magia natječaj za posao" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" TextColor="Black" FontSize="Title" />
+            <Label Text="Tvrtka Boom Magia nudi radna mjesta za 4 zaposlenika." FontSize="16" Padding="30,0,30,0" />
+            <Label Text="Radna mjesta: " FontSize="16" Padding="30,24,30,0">
+            </Label>
+            <Label Text="-Marketing (1), " FontSize="16" Padding="30,24,30,0">
+            </Label>
+            <Label Text="-dizajneri (2) , " FontSize="16" Padding="30,24,30,0">
+            </Label>
+            <Label Text="-knjigovodstvo (1) , " FontSize="16" Padding="30,24,30,0">
+            </Label>
+
+            <Label Text="Prijave za natječaj: 25.studeni 2021.-05.prosinac 2021." FontSize="16" Padding="30,24,30,0">
+            </Label>
+            <Label Text="Osobe koje su zainteresirane za posao mogu se javiti putem e-pošte:" FontSize="16" Padding="30,24,30,0">
+            </Label>
+            <Label Text="partyboomvt@gmail.com               " FontSize="16" Padding="30,24,30,0" FontAttributes="Bold" />
+            <Label Text="
+               "></Label>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

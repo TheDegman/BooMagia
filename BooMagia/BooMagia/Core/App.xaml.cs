@@ -10,7 +10,7 @@ namespace BooMagia
         {
             InitializeComponent();
 
-            MainPage = new Core.AppShell();
+            MainPage =  new Core.AppShell();
         }
 
         protected override void OnStart()

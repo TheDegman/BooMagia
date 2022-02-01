@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooMagia.Stranice.Lokacije"
+             Title="Lokacije">
+    <ScrollView>
+        <StackLayout BackgroundColor="#f7f4ee">
+            
+
+            <Label Text="Da bi najljepši trenutci postali još ljepši" FontSize="Title" FontAttributes="Bold" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+
+            <Label Text="I filmski i turistički radnici znaju da Hrvatska ima sve što destinacija mora imati: puno sunčanih dana godišnje, prekrasne i raznovrsne pejzaže, očuvanu prirodu i dobru infrastrukturu za smještaj gostiju. Organizatori proslava prepoznali su da Hrvatska ima i sve što destinacija treba imati za proslavu u prirodi, na otvorenom ili pod šatorom." FontSize="16" FontAttributes="Italic" Padding="30,0,30,0"/>
+
+            <Image Source="paljevine.PNG" HorizontalOptions="Center" WidthRequest="500"></Image>
+            <Label Text="Paljevine" FontSize="18" TextColor="Black" HorizontalOptions="Center" FontAttributes="Bold" TextDecorations="Underline"></Label>
+            <Label Text="Slavonski Brod" FontSize="16" TextColor="Black" HorizontalOptions="Center"></Label>
+
+            <Image Source="savus.jpg" HorizontalOptions="Center" WidthRequest="500"></Image>
+            <Label Text="Salaš Savus" FontSize="18" TextColor="Black" HorizontalOptions="Center"  FontAttributes="Bold" TextDecorations="Underline" ></Label>
+            <Label Text="Bukovlje" FontSize="16" TextColor="Black" HorizontalOptions="Center"></Label>
+
+            <Image Source="skapela.jpeg" HorizontalOptions="Center" WidthRequest="500"></Image>
+            <Label Text="Etno selo Stara Kapela" FontSize="18" TextColor="Black" HorizontalOptions="Center"  FontAttributes="Bold" TextDecorations="Underline" ></Label>
+            <Label Text="Stara Kapela" FontSize="16" TextColor="Black" HorizontalOptions="Center"></Label>
+
+            <Image Source="maticevic.jpg" HorizontalOptions="Center" WidthRequest="500"></Image>
+            <Label Text="Matičević centar" FontSize="18" TextColor="Black" HorizontalOptions="Center"  FontAttributes="Bold" TextDecorations="Underline" ></Label>
+            <Label Text="Slavonski Brod" FontSize="16" TextColor="Black" HorizontalOptions="Center"></Label>
+
+            <Image Source="carpediem.jpg" HorizontalOptions="Center" WidthRequest="500"></Image>
+            <Label Text="Carpe Diem" FontSize="18" TextColor="Black" HorizontalOptions="Center"  FontAttributes="Bold" TextDecorations="Underline" ></Label>
+            <Label Text="Slavonski Brod" FontSize="16" TextColor="Black" HorizontalOptions="Center"></Label>
+
+            <Image Source="kkuca.jpg" HorizontalOptions="Center" WidthRequest="500"></Image>
+            <Label Text="Krajnja kuća za odmor" FontSize="18" TextColor="Black" HorizontalOptions="Center"  FontAttributes="Bold" TextDecorations="Underline" ></Label>
+            <Label Text="Slavonski Brod" FontSize="16" TextColor="Black" HorizontalOptions="Center"></Label>
+
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
