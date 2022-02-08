@@ -48,5 +48,14 @@
         <ShellContent Title="O nama"
                       ContentTemplate="{DataTemplate stranice:ONama}"></ShellContent>
     </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Exit"
+                      ContentTemplate="{DataTemplate stranice:EXIT}"></ShellContent>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <izgled:Footer></izgled:Footer>
+    </Shell.FlyoutFooter>
     
 </Shell>

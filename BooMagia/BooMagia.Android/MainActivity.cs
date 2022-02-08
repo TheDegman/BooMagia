@@ -24,5 +24,9 @@ namespace BooMagia.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
+
+
+
 }
